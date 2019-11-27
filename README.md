@@ -1,19 +1,20 @@
 # Cat Vs Dog
 ## 项目文件夹目录介绍：
 
-- [CatVsDog](https://github.com/Missyanc/CatVsDog/tree/master/CatVsDog) : 为 Web 项目的文件夹设置
-- [catVdog](https://github.com/Missyanc/CatVsDog/tree/master/catVdog) ： 为 Web 项目的应用文件夹
-- [media](https://github.com/Missyanc/CatVsDog/tree/master/media) ： 保存了 Web 页面上的静态图片内容
-- [templates](https://github.com/Missyanc/CatVsDog/tree/master/templates) ： 为 Web 页面的 Html 页面
-- [venv](https://github.com/Missyanc/CatVsDog/tree/master/venv) ： 所有 cnn 的内容
-  - [Include](https://github.com/Missyanc/CatVsDog/tree/master/venv/Include) ： 所有的 cnn 内容
-    - [VGG](https://github.com/Missyanc/CatVsDog/tree/master/venv/Include/VGG) : 用的 VGG 模型搭建的 cnn 模型
-      - [data](https://github.com/Missyanc/CatVsDog/tree/master/venv/Include/VGG/data) : 参照具体步骤的数据集的建立
-    - [cnn](https://github.com/Missyanc/CatVsDog/tree/master/venv/Include/cnn) : 自己搭建的 cnn 模型
-      - [data](https://github.com/Missyanc/CatVsDog/tree/master/venv/Include/cnn/data) ： train/test
-  - [Lib/tcl8.6](https://github.com/Missyanc/CatVsDog/tree/master/venv/Lib/tcl8.6) ： 存包的文件，需要读者自行下载所需包
-- [db.sqlite3](https://github.com/Missyanc/CatVsDog/blob/master/db.sqlite3) ： Django 自带的数据库
-- [manage.py](https://github.com/Missyanc/CatVsDog/blob/master/manage.py) ： Django 执行脚本
+- [CatVsDog](CatVsDog) : 为 Web 项目的文件夹设置
+- [catVdog](catVsdog) ： 为 Web 项目的应用文件夹
+- [media](media) ： 保存了 Web 页面上的静态图片内容
+- [templates](templates) ： 为 Web 页面的 Html 页面
+- [venv](venv) ： 所有 cnn 的内容
+  - [Include](venv/Include) ： 所有的 cnn 内容
+    - [VGG](venv/Include/VGG) : 用的 VGG 模型搭建的 cnn 模型
+      - [data](venv/Include/VGG/data) : 参照具体步骤的数据集的建立
+    - [cnn](venv/Include/cnn) : 自己搭建的 cnn 模型
+      - [data](venv/Include/cnn/data) ： train/test
+  - [Lib/tcl8.6](venv/Lib/tcl8.6) ： 存包的文件，需要读者自行下载所需包
+- [db.sqlite3](db.sqlite3) ： Django 自带的数据库
+- [manage.py](manage.py) ： Django 执行脚本
+- [requirements.txt](requirements.txt)
 
 **数据集百度云链接：https://pan.baidu.com/s/1qsvmq3uwqr79ykI5FblV8g**
 **提取码：yun5**
@@ -41,7 +42,7 @@
 
 ### 项目流程图
 
-![猫狗大战流程图](https://github.com/Missyanc/CatVsDog/blob/master/iamges/%E7%8C%AB%E7%8B%97%E5%A4%A7%E6%88%98%E6%B5%81%E7%A8%8B%E5%9B%BE.png?raw=true)
+![猫狗大战流程图](iamges/%E7%8C%AB%E7%8B%97%E5%A4%A7%E6%88%98%E6%B5%81%E7%A8%8B%E5%9B%BE.png)
 
 ------
 
@@ -49,7 +50,7 @@
 
 ### 网络图片展示
 
-![cnn网络图](https://github.com/Missyanc/CatVsDog/blob/master/iamges/net.png?raw=true)
+![cnn网络图](iamges/net.png)
 
 ### 网络文字代码解释
 
@@ -407,11 +408,11 @@ def predict():
 
 - 自己搭建的网络模型准确率图像
 
-  ![r2](https://github.com/Missyanc/CatVsDog/blob/master/iamges/r2.png?raw=true)
+  ![r2](iamges/r2.png)
 
 - VGG16 预训练网络模型准确率
 
-  ![r2](https://github.com/Missyanc/CatVsDog/blob/master/iamges/r3.png?raw=true)
+  ![r2](iamges/r3.png)
 
 #### **微调（Fine-tuning）**
 
